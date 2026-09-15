@@ -1,0 +1,25 @@
+name: Investigation exercise
+description: Track a threat-hunting or incident-investigation exercise.
+title: "[Investigation]: "
+labels: ["investigation"]
+body:
+  - type: textarea
+    id: trigger
+    attributes:
+      label: Trigger or hypothesis
+      description: Do not reveal protected ground truth during a blind exercise.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence locations
+      description: Reference repository-safe artifacts only.
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+      description: Define what constitutes a defensible conclusion.
+    validations:
+      required: true
+

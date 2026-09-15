@@ -1,0 +1,65 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+
+# Azure and infrastructure state
+.azure/
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+!*.tfvars.example
+
+# Logs, evidence, and packet captures
+*.log
+*.evtx
+*.pcap
+*.pcapng
+raw-data/
+private-evidence/
+artifacts/private/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# PowerShell
+*.clixml
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and generated files
+tmp/
+temp/
+coverage/
+reports/generated/
+

@@ -1,0 +1,31 @@
+schema_version: "0.1"
+id: LAB-T0000-001
+name: Replace with scenario name
+status: planned
+safety:
+  authorized_targets:
+    - replace-with-lab-asset-role
+  prohibited_targets:
+    - household-network
+    - public-internet
+  maximum_duration_seconds: 60
+  emergency_stop: Document the stop command or isolation control
+  cleanup: Document restoration and verification steps
+attack_mapping:
+  tactic: replace-with-tactic
+  technique: T0000
+  subtechnique: null
+execution:
+  platform: replace-with-windows-linux-identity-network-or-web
+  adapter: not-implemented
+telemetry_expectations:
+  - source: replace-with-data-source
+    event: replace-with-event-description
+detection_expectations:
+  - detection_id: replace-with-repository-detection-id
+scoring:
+  alert_expected: true
+  maximum_detection_delay_seconds: 300
+ground_truth:
+  storage: protected-outside-analyst-view
+
