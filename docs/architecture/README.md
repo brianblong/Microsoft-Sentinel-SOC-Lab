@@ -15,3 +15,6 @@ Each diagram should include:
 
 Prefer editable source formats such as Mermaid or diagrams-as-code alongside exported images.
 
+## Artifacts
+
+- [Current-state architecture](current-state.md)

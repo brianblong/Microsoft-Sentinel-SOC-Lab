@@ -4,3 +4,6 @@ Planned content includes the IP plan, VLANs, trunk and access ports, firewall ru
 
 Use sanitized example addresses and device names in the public repository.
 
+## Artifacts
+
+- [IP address and naming plan](ip-naming-plan.md)

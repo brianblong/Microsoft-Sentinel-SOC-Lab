@@ -9,10 +9,10 @@
 - [x] Initial roadmap
 - [x] Rules of engagement
 - [x] Budget guardrails
-- [ ] Current-state architecture diagram
-- [ ] IP address and naming plan
-- [ ] Azure subscription and licensing inventory
-- [ ] Phase 1 backlog
+- [x] Current-state architecture diagram
+- [x] IP address and naming plan
+- [x] Azure subscription and licensing inventory
+- [x] Phase 1 backlog
 
 ### Exit criteria
 
@@ -84,4 +84,3 @@ Target duration: 6–10 weeks.
 - An analyst can investigate an unknown selected scenario without seeing ground truth.
 - Results are scored reproducibly against documented expectations.
 - Failed or partial detections create an actionable improvement backlog.
-

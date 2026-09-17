@@ -2,7 +2,7 @@
 
 An incremental cybersecurity homelab for learning Microsoft Sentinel and Microsoft Defender, preparing for SC-200, practicing security operations, and eventually validating detections through randomized, authorized attack simulations.
 
-> **Status:** Phase 0 — Planning and governance
+> **Status:** Phase 0 documentation complete; private Azure readiness checks remain before Phase 1 deployment
 
 ## Project outcomes
 
@@ -90,5 +90,4 @@ Each meaningful lab capability should document:
 
 ## Licensing
 
-No license has been selected yet. Until a license is deliberately added, normal copyright protections apply. Choose a license before accepting external contributions or publishing reusable code.
-
+This repository is licensed under the [MIT License](LICENSE).
