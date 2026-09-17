@@ -24,6 +24,14 @@
 
 Target duration: 3–5 weeks.
 
+### Learn before deploying
+
+- Azure subscriptions, resource groups, RBAC, naming, tagging, budgets, and the shared-responsibility model
+- Log Analytics workspace architecture, retention, ingestion, and cost controls
+- Microsoft Sentinel architecture and the purpose of data connectors
+- Windows security telemetry fundamentals
+- KQL fundamentals before writing production-style analytics rules
+
 ### Deliverables
 
 - [ ] Azure resource organization and access controls
@@ -47,6 +55,15 @@ Target duration: 3–5 weeks.
 
 Target duration: 6–10 weeks.
 
+### Learn before deploying
+
+- VLANs, trunks, routing, firewall policy, management networks, and rollback before changing the physical switch
+- Active Directory fundamentals and recovery before promoting a domain controller
+- Windows event logging, Sysmon, Linux Syslog, and Auditd before enabling broad ingestion
+- Defender product roles and licensing boundaries before integration
+- Logic Apps identities, permissions, and approval controls before automating response
+- Docker networking and application logging before onboarding container workloads
+
 ### Deliverables
 
 - [ ] Managed switch, VLANs, and firewall policy
@@ -66,6 +83,15 @@ Target duration: 6–10 weeks.
 - At least one safe response workflow is automated.
 
 ## Phase 3 — SOC validation platform
+
+### Learn before building
+
+- Python project structure, testing, configuration, logging, and secrets management
+- Safe threat emulation, authorization boundaries, cleanup, and emergency-stop design
+- MITRE ATT&CK mapping and detection-validation methodology
+- Randomization, protected ground truth, experiment design, and scoring integrity
+- API design, job scheduling, data schemas, and failure handling
+- Measurement limitations before interpreting detection and response metrics
 
 ### Deliverables
 
